@@ -1,0 +1,19 @@
+### Add a task
+
+POST http://localhost:8081/ToDo/addtask
+Content-Type: application/json
+
+{
+  "id": 3,
+  "title": "shopping",
+  "isDone": false
+}
+
+
+### delete a task
+
+DELETE http://localhost:8081/ToDo/deletetask/3
+
+### update a task
+
+PUT http://localhost:8081/ToDo/updatetask/2
