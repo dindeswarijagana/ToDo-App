@@ -120,3 +120,79 @@ li span {
         margin-top: 0.5rem;
     }
 }
+
+.task-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.task-title b {
+    font-size: 1.1rem;
+    flex: 1;
+    text-align: left;
+}
+
+.task-title button {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+}
+
+.task-actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Match the subtask container to the form/input width */
+.subtask-list {
+    width: 100%;
+    padding-left: 0;
+}
+
+/* Subtask item with full width and clean spacing */
+.subtask-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #f9f9f9;
+    padding: 0.6rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Title stays on left */
+.subtask-title {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Buttons float right individually */
+.subtask-toggle {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.subtask-delete {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
